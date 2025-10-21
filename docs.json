@@ -1,7 +1,7 @@
 {
   "$schema": "https://mintlify.com/docs.json",
   "theme": "mint",
-  "name": "Cloudfy Starter Kit",
+  "name": "Cloudfy Docs",
   "colors": {
     "primary": "#16A34A",
     "light": "#07C983",
@@ -11,58 +11,121 @@
   "navigation": {
     "tabs": [
       {
-        "tab": "Guides",
+        "tab": "Documentação",
         "groups": [
           {
-            "group": "Comece aqui",
+            "group": "Inicialização",
             "pages": [
-              "index",
-              "quickstart",
-              "development"
+              "bootup/introduction",
+              "bootup/migrate-to-polar"
             ]
           },
           {
-            "group": "Customization",
+            "group": "Funcionalidades",
             "pages": [
-              "essentials/settings",
-              "essentials/navigation"
+              "features/products"
             ]
           },
           {
-            "group": "Writing content",
+            "group": "Cobrança por Uso (Usage-Based Billing)",
             "pages": [
-              "essentials/markdown",
-              "essentials/code",
-              "essentials/images",
-              "essentials/reusable-snippets"
+              "features/usage-based-billing/introduction",
+              "features/usage-based-billing/event-ingestion",
+              "features/usage-based-billing/meters",
+              "features/usage-based-billing/credits",
+              "features/usage-based-billing/billing"
             ]
           },
           {
-            "group": "AI tools",
+            "group": "Estratégias de Ingestão",
             "pages": [
-              "ai-tools/cursor",
-              "ai-tools/claude-code",
-              "ai-tools/windsurf"
-            ]
-          }
-        ]
-      },
-      {
-        "tab": "API reference",
-        "groups": [
-          {
-            "group": "API documentation",
-            "pages": [
-              "api-reference/introduction"
+              "features/usage-based-billing/ingestion-strategies/strategy-introduction",
+              "features/usage-based-billing/ingestion-strategies/llm-strategy",
+              "features/usage-based-billing/ingestion-strategies/s3-strategy",
+              "features/usage-based-billing/ingestion-strategies/stream-strategy",
+              "features/usage-based-billing/ingestion-strategies/delta-time-strategy"
             ]
           },
           {
-            "group": "Endpoint examples",
+            "group": "Benefícios",
             "pages": [
-              "api-reference/endpoint/get",
-              "api-reference/endpoint/create",
-              "api-reference/endpoint/delete",
-              "api-reference/endpoint/webhook"
+              "benefits/introduction",
+              "benefits/license-keys",
+              "benefits/file-downloads",
+              "benefits/discord-access",
+              "benefits/github-access",
+              "benefits/credits",
+              "benefits/custom"
+            ]
+          },
+          {
+            "group": "Checkout",
+            "pages": [
+              "checkout/links",
+              "checkout/embedded",
+              "checkout/api"
+            ]
+          },
+          {
+            "group": "Testes Gratuitos (Trials)",
+            "pages": [
+              "trials"
+            ]
+          },
+          {
+            "group": "Preço por Assento",
+            "pages": [
+              "seat-based-pricing"
+            ]
+          },
+          {
+            "group": "Campos Personalizados",
+            "pages": [
+              "custom-fields"
+            ]
+          },
+          {
+            "group": "Descontos",
+            "pages": [
+              "discounts"
+            ]
+          },
+          {
+            "group": "Pedidos e Assinaturas",
+            "pages": [
+              "orders-subscriptions"
+            ]
+          },
+          {
+            "group": "Reembolsos",
+            "pages": [
+              "refunds"
+            ]
+          },
+          {
+            "group": "Análises e Relatórios",
+            "pages": [
+              "analytics"
+            ]
+          },
+          {
+            "group": "Clientes",
+            "pages": [
+              "customer-management"
+            ]
+          },
+          {
+            "group": "Portal do Cliente",
+            "pages": [
+              "customer-portal"
+            ]
+          },
+          {
+            "group": "Financeiro & Repasse",
+            "pages": [
+              "finance-payouts/payout-accounts",
+              "finance-payouts/account-balance",
+              "finance-payouts/payouts"
             ]
           }
         ]
@@ -71,7 +134,7 @@
     "global": {
       "anchors": [
         {
-          "anchor": "Documentation",
+          "anchor": "Documentação Mintlify",
           "href": "https://mintlify.com/docs",
           "icon": "book-open-cover"
         },
@@ -90,33 +153,33 @@
   "navbar": {
     "links": [
       {
-        "label": "Support",
-        "href": "mailto:hi@mintlify.com"
+        "label": "Suporte",
+        "href": "mailto:suporte@cloudfy.com"
       }
     ],
     "primary": {
       "type": "button",
-      "label": "Dashboard",
-      "href": "https://dashboard.mintlify.com"
+      "label": "Painel",
+      "href": "https://dashboard.cloudfy.com"
     }
   },
   "contextual": {
     "options": [
-     "copy",
-     "view",
-     "chatgpt",
-     "claude",
-     "perplexity",
-     "mcp",
-     "cursor",
-     "vscode"
-   ]
+      "copy",
+      "view",
+      "chatgpt",
+      "claude",
+      "perplexity",
+      "mcp",
+      "cursor",
+      "vscode"
+    ]
   },
   "footer": {
     "socials": {
-      "x": "https://x.com/mintlify",
-      "github": "https://github.com/mintlify",
-      "linkedin": "https://linkedin.com/company/mintlify"
+      "x": "https://x.com/cloudfy",
+      "github": "https://github.com/cloudfy",
+      "linkedin": "https://linkedin.com/company/cloudfy"
     }
   }
 }
